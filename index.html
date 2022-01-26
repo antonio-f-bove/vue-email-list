@@ -13,7 +13,7 @@
 
   <div id="app">
 
-    <ul>
+    <ul v-if="addresses.length === 10">
       <li v-for="address in addresses">
         {{ address }}
       </li>
